@@ -1,0 +1,80 @@
+{
+    "Centralized Training": {
+        "loss": 0.8621745109558105,
+        "accuracy": 0.7971344375571588,
+        "precision": 0.18477227551637715,
+        "recall": 0.79568291775214,
+        "f1_score": 0.29990180951045026,
+        "confusion_matrix": [
+            [
+                37085,
+                9433
+            ],
+            [
+                549,
+                2138
+            ]
+        ],
+        "classification_report": "                 precision    recall  f1-score   support\n\nNo Heart Attack       0.99      0.80      0.88     46518\n   Heart Attack       0.18      0.80      0.30      2687\n\n       accuracy                           0.80     49205\n      macro avg       0.59      0.80      0.59     49205\n   weighted avg       0.94      0.80      0.85     49205\n"
+    },
+    "FL-IID": {
+        "loss": 0.8279929757118225,
+        "accuracy": 0.8123971141144193,
+        "precision": 0.19619312906220984,
+        "recall": 0.786378861183476,
+        "f1_score": 0.31403730400535035,
+        "confusion_matrix": [
+            [
+                37861,
+                8657
+            ],
+            [
+                574,
+                2113
+            ]
+        ],
+        "classification_report": "                 precision    recall  f1-score   support\n\nNo Heart Attack       0.99      0.81      0.89     46518\n   Heart Attack       0.20      0.79      0.31      2687\n\n       accuracy                           0.81     49205\n      macro avg       0.59      0.80      0.60     49205\n   weighted avg       0.94      0.81      0.86     49205\n",
+        "model_size_mb": 0.045902252197265625,
+        "communication_overhead_mb": 4.5902252197265625
+    },
+    "FL-non-IID": {
+        "loss": 1.2908880710601807,
+        "accuracy": 0.9138908647495173,
+        "precision": 0.3330461008186127,
+        "recall": 0.5753628582061779,
+        "f1_score": 0.4218856597080093,
+        "confusion_matrix": [
+            [
+                43422,
+                3096
+            ],
+            [
+                1141,
+                1546
+            ]
+        ],
+        "classification_report": "                 precision    recall  f1-score   support\n\nNo Heart Attack       0.97      0.93      0.95     46518\n   Heart Attack       0.33      0.58      0.42      2687\n\n       accuracy                           0.91     49205\n      macro avg       0.65      0.75      0.69     49205\n   weighted avg       0.94      0.91      0.92     49205\n",
+        "model_size_mb": 0.045902252197265625,
+        "communication_overhead_mb": 4.5902252197265625
+    },
+    "FL + Differential Privacy": {
+        "loss": 1.259480595588684,
+        "accuracy": 0.910232699928869,
+        "precision": 0.32532310177705975,
+        "recall": 0.5995534052847041,
+        "f1_score": 0.42178295588427805,
+        "confusion_matrix": [
+            [
+                43177,
+                3341
+            ],
+            [
+                1076,
+                1611
+            ]
+        ],
+        "classification_report": "                 precision    recall  f1-score   support\n\nNo Heart Attack       0.98      0.93      0.95     46518\n   Heart Attack       0.33      0.60      0.42      2687\n\n       accuracy                           0.91     49205\n      macro avg       0.65      0.76      0.69     49205\n   weighted avg       0.94      0.91      0.92     49205\n",
+        "model_size_mb": 0.045902252197265625,
+        "communication_overhead_mb": 4.5902252197265625
+    }
+}
