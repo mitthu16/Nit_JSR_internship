@@ -1,0 +1,25 @@
+experiment:
+  name: FashionMNIST_Benchmark
+
+flower:
+  num_clients: 5
+  num_rounds: 10
+  fraction_fit: 1.0
+  fraction_evaluate: 1.0
+
+training:
+  epochs: 2
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: Adam
+
+benchmark:
+  cpu: true
+  ram: true
+  network: true
+  training_time: true
+
+reports:
+  csv: true
+  xml: true
+  plots: true

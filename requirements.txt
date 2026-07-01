@@ -1,0 +1,12 @@
+torch
+torchvision
+flwr
+numpy
+pandas
+matplotlib
+scikit-learn
+onnx
+onnxruntime
+protobuf
+grpcio
+pyyaml

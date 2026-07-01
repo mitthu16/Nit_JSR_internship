@@ -1,0 +1,4 @@
+dataset:
+  name: FashionMNIST
+  path: data/fashion_mnist
+  partition: iid
